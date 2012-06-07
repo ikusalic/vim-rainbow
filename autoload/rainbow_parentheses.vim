@@ -36,7 +36,7 @@ function! rainbow_parentheses#Clear()
     endwhile
 endfunction
 
-function! rainbow_parentheses#Toggle ()  " function modified
+function! rainbow_parentheses#Toggle ()
     " variable meanings:
     " g:rainbow_paren_invoked -> first use of pugin creates this var
     " b:rainbow_paren_locally_invoked -> first use in buffer creates this var
@@ -49,7 +49,7 @@ function! rainbow_parentheses#Toggle ()  " function modified
         call rainbow_parentheses#LoadRound()
         call rainbow_parentheses#LoadSquare()
         call rainbow_parentheses#LoadBraces()
-        "call rainbow_parentheses#LoadChevrons()
+        call rainbow_parentheses#LoadChevrons()
         
         let g:rainbow_paren_active = 0
     endif
@@ -60,7 +60,7 @@ function! rainbow_parentheses#Toggle ()  " function modified
         call rainbow_parentheses#LoadRound()
         call rainbow_parentheses#LoadSquare()
         call rainbow_parentheses#LoadBraces()
-        "call rainbow_parentheses#LoadChevrons()
+        call rainbow_parentheses#LoadChevrons()
         
         let g:rainbow_paren_active = 0
     endif

@@ -10,6 +10,6 @@ command! -nargs=0 RainbowParenthesesToggle       call rainbow_parentheses#Toggle
 command! -nargs=0 RainbowParenthesesLoadSquare   call rainbow_parentheses#LoadSquare()
 command! -nargs=0 RainbowParenthesesLoadRound    call rainbow_parentheses#LoadRound()
 command! -nargs=0 RainbowParenthesesLoadBraces   call rainbow_parentheses#LoadBraces()
-command! -nargs=0 RainbowParenthesesLoadChevrons call rainbow_parentheses#LoadChevrons() " XXX added "Load"
+command! -nargs=0 RainbowParenthesesLoadChevrons call rainbow_parentheses#LoadChevrons()
 
 finish
