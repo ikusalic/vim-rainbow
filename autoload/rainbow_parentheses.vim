@@ -49,7 +49,7 @@ function! rainbow_parentheses#Toggle ()
         call rainbow_parentheses#LoadRound()
         call rainbow_parentheses#LoadSquare()
         call rainbow_parentheses#LoadBraces()
-        call rainbow_parentheses#LoadChevrons()
+        "call rainbow_parentheses#LoadChevrons()
         
         let g:rainbow_paren_active = 0
     endif
